@@ -1,5 +1,7 @@
-import Document from './Document.js';
-import Stopwords from './Stopwords.js';
+"use strict";
+
+let Document = require('./Document').Document
+let Stopwords = require('./Stopwords').Stopwords
 
 // Implements TF-IDF (Term Frequency - Inverse Document Frequency) using BM25 weighting, from:
 // https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-356.pdf
