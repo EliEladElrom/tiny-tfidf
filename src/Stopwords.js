@@ -1,3 +1,5 @@
+"use strict";
+
 // English stopwords, assuming that 1-letter tokens are already filtered out. Based on the list
 // from NLTK, found via https://gist.github.com/sebleier/554280
 const defaultStopwords = ['me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your',
