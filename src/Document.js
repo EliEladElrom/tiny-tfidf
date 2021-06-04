@@ -1,3 +1,5 @@
+"use strict";
+
 // This is used by the Corpus class for each of the given texts. It is independent of any stopword
 // list or term weights (which are managed at the corpus level) and only maintains the
 // document-level term frequencies. Terms can contain only letters or numbers; they are filtered
