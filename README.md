@@ -48,13 +48,15 @@ For many more usage examples, see this [Observable notebook](https://observableh
 
 ### With Node.js
 
-Disclaimer: this is an ES6 module and is mostly intended for use in the browser, rather than with Node.js ([more background on ES6 modules and Node](https://github.com/nodejs/modules/blob/master/doc/announcement.md#es-module-code-in-packages)).
-
 Example with Node v12.6.0 :
 
-```sh
-node --experimental-modules --es-module-specifier-resolution=node test.js
-```
+let Corpus = require('../utils/Corpus').Corpus
+
+  const corpus = new Corpus(
+    ['document1'],
+    ['strings']
+  )
+
 ## API (v0.9)
 
 ### `Corpus` class
